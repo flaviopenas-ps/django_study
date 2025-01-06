@@ -1,0 +1,57 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django stuff:
+db.sqlite3
+*.log
+*.pot
+*.pyc
+*.pyo
+*.db
+
+# Private keys and environment variables
+.env
+*.key
+
+# Static files
+/static/
+media/
+*.bak
+
+# Local development settings
+/local_settings.py
+*.local
+
+# Virtual environment
+venv/
+env/
+
+# pipenv
+*.lock
+
+# mypy
+.mypy_cache/
+
+# IDEs and editors
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Testing
+.pytest_cache/
+.coverage
+.tox/
+
+# Docker
+*.pid
+build/
+*.log
+.env.docker
+
+# Node.js (frontend assets, if applicable)
+node_modules/
+npm-debug.log
+yarn-error.log
